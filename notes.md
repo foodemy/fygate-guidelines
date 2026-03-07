@@ -289,7 +289,7 @@ When writing solutions inside blockquotes (for Examples or Previous Years' Quest
 
 ## Images
 
-Use HTML `<figure>` elements for images with captions to ensure proper rendering and centering on GitHub.
+Use HTML `<figure>` elements for images with captions to ensure proper rendering and centering.
 
 **Syntax:**
 
