@@ -289,16 +289,25 @@ When writing solutions inside blockquotes (for Examples or Previous Years' Quest
 
 ## Images
 
-### Syntax
+Use HTML `<figure>` elements for images with captions to ensure proper rendering and centering on GitHub.
+
+**Syntax:**
 
 ```markdown
-![width](filename.png)
+<figure>
+  <img src="glucose-structure.png" alt="Structure of glucose molecule showing the ring form">
+  <figcaption>Figure 1: Structure of glucose in its cyclic form</figcaption>
+</figure>
 ```
 
-- Specify width in pixels (e.g., `![600](glucose-structure.png)`)
+**Guidelines:**
+
 - Use descriptive filenames: `glucose-structure.png`, `glycosidic-bond.png`
 - Store images in the same folder as the markdown file
+- Provide meaningful alt text that describes the image content
+- Include a caption using `<figcaption>` to explain the figure
 - Use PNG format for diagrams, JPG for photographs
+- Number figures sequentially within each document (Figure 1, Figure 2, etc.)
 
 ---
 
