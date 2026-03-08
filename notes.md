@@ -302,11 +302,12 @@ Use HTML `<figure>` elements for images with captions to ensure proper rendering
 
 **Guidelines:**
 
-- Use descriptive filenames: `glucose-structure.png`, `glycosidic-bond.png`
+- Use descriptive filenames if possible: `glucose-structure.png`, `glycosidic-bond.png`
+- File names should be lowercased with hyphens only (e.g., `cyclic-glucose-structure.png`)
 - Store images in the same folder as the markdown file
 - Provide meaningful alt text that describes the image content
 - Include a caption using `<figcaption>` to explain the figure
-- Use PNG format for diagrams, JPG for photographs
+- Use JPEG/PNG format for diagrams
 - Number figures sequentially within each document (Figure 1, Figure 2, etc.)
 
 ---
@@ -324,7 +325,7 @@ Use HTML `<figure>` elements for images with captions to ensure proper rendering
 
 Calculate the molar mass of maltose ($C_{12}H_{22}O_{11}$).
 
-> **Solution:**
+> Solution:
 >
 > Maltose has the molecular formula $C_{12}H_{22}O_{11}$
 >
@@ -435,11 +436,11 @@ Which of the following is a reducing sugar?
 - (C) Trehalose
 - (D) None of the above
 
-> **Solution:**
+> Answer: (B)
 >
-> Maltose is a reducing sugar because it has a free anomeric carbon that can act as a reducing agent.
+> Solution:
 >
-> **Answer: (B)**
+> Maltose is a reducing sugar because it has a free anomeric carbon that can act as a reducing agent. 
 
 ---
 
@@ -452,11 +453,11 @@ The glycosidic bond in cellulose is: #GATE2021
 - (C) α-1,6
 - (D) β-1,6
 
-> **Solution:**
+> Answer: (B)
+>
+> Solution:
 >
 > Cellulose consists of glucose units linked by **β-1,4 glycosidic bonds**.
->
-> **Answer: (B)**
 ```
 
 ### Guidelines
@@ -492,7 +493,7 @@ Maintain this order in all notes:
 - [ ] File and folder names use lowercase with hyphens
 - [ ] H1 used only for main title
 - [ ] All equations render correctly (test in preview)
-- [ ] Images have width specified and files exist
+- [ ] Images have caption and alt text specified and image file present
 - [ ] Examples have solutions in blockquotes
 - [ ] Practice question solutions are NOT in blockquotes
 - [ ] Previous years' questions include exam name and year
