@@ -1,8 +1,8 @@
 ---
-title: Markdown Style Guide
+title: Markdown Structure Guide
 description: Standards for creating markdown notes in fyGATE study materials
 author: fyGATE
-date: 2026-03-04
+updatedOn: 2026-03-11
 ---
 
 # Markdown Style Guide for fyGATE Study Materials
